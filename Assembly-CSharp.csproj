@@ -55,9 +55,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
+     <Compile Include="Assets\Scripts\ExpandNDelete.cs" />
+     <Compile Include="Assets\Scripts\FireSound.cs" />
+     <Compile Include="Assets\Scripts\MaskController.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <None Include="Assets\Materials\SoundRippleShader.shader" />
-     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
+     <Compile Include="Assets\Scripts\SoundwaveScript.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/code/gamdev/no_i_in_platformer/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
